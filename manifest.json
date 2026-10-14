@@ -1,0 +1,20 @@
+{
+
+    "name":"Aesthetic Stopwatch",
+    "short_name":"Stopwatch",
+    "start_url":"/",
+    "display":"standalone",
+    "icons":[
+        {
+            "src":"72.png",
+            "sizes":"72x72",
+            "type":"image/png"
+        },
+        {
+            "src":"96.png",
+            "sizes":"96x96",
+            "type":"image/png"
+        }
+    ]
+
+}

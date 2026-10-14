@@ -1,0 +1,209 @@
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-image: url(coffee.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 100vh;
+    margin:0;
+}
+
+#myh1 {
+    font-size: 3em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: whitesmoke;
+
+
+
+    padding: 7px;
+}
+
+#container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   
+    justify-content: center;
+    margin-bottom: 50vh;
+    width: 100vw;
+
+}
+
+#display {
+    font-size: 10rem;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-weight: bold;
+    color: hsl(0, 0%, 92%);
+    text-shadow: 2px 2px 2px black;
+    margin-bottom: 25px;
+}
+
+#controls button {
+    font-size: 1.5rem;
+    font-weight: bold;
+    padding: 10px 20px;
+    margin: 5px;
+    max-width: 125px;
+    border: 2px solid black;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: 0.5s ease;
+    color: whitesmoke;
+}
+
+#startbtn {
+    background-color: #974f3b;
+}
+
+#startbtn:hover {
+    background-color: #9c5c4a;
+}
+
+#stopbtn {
+    background-color: #974f3b;
+}
+
+#stopbtn:hover {
+    background-color: #9c5c4a;
+}
+
+#resetbtn {
+    background-color: #974f3b;
+}
+
+#resetbtn:hover {
+    background-color: #9c5c4a;
+}
+
+
+
+/* i did it to reduce opacity but i dont think it should be reduced */
+/* body::before {
+    content: "";
+    background-image: url(https://wallpapercave.com/wp/wp13338509.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    opacity: 1;
+    inset: 0;
+    position: absolute;
+} */
+
+.site-footer {
+    width: 100%;
+    padding: 2rem 1rem 1.5rem;
+    text-align: center;
+    font-family: inherit;
+    color: rgba(255, 255, 255, 0.55);
+    background: linear-gradient(to top, rgba(255, 255, 255, 0.05), transparent);
+    border-top: 1px solid rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(6px);
+    margin-top: auto;
+    bottom: 0;
+    box-sizing: border-box;
+}
+
+.footer-quote {
+    font-size: 0.95rem;
+    letter-spacing: 0.08em;
+    margin-bottom: 1rem;
+    font-style: italic;
+}
+
+.footer-links {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-bottom: 1rem;
+}
+
+.footer-links a {
+    color: inherit;
+    text-decoration: none;
+    font-size: 0.85rem;
+    letter-spacing: 0.1em;
+    text-transform: uppercase;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.footer-links a:hover {
+    color: #fff;
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.6);
+}
+
+.footer-copy {
+    font-size: 0.75rem;
+    opacity: 0.6;
+}
+
+
+/* header needs full width */
+header{
+    width: 100%;
+}
+.nav{
+    display: flex;
+    padding: 12px 20px;
+    background-color: black;
+    width: 100vw;
+    box-sizing: border-box;
+    color: white;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+}
+
+.nav a {
+    color: white;
+    text-decoration: none;
+   
+}
+
+.nav a:hover {
+    text-decoration: underline;
+}
+.navlinks{
+    display: flex;
+    gap: 30px;
+}
+#fs-btn {
+    color: whitesmoke;
+    background-color: #974f3b;
+    border: 1px solid black;
+    border-radius: 8px;
+    font-size: 1rem;
+    font-weight: bold;
+     width: 180px;
+    padding: 5px 10px;
+    box-sizing: border-box;
+}
+
+#fs-btn:hover {
+    cursor: pointer;
+    background-color: #9c5c4a;
+}
+
+
+
+
+
+
+
+@media (max-width: 700px) {
+  
+  #display{
+font-size: 5rem;
+  }
+}
+
+@media (max-width: 700px) {
+  
+  #controls button{
+    font-size: 1rem;
+ 
+  
+  
+  }
+}
+
